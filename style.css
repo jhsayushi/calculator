@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;700&family=Nunito&display=swap');
+
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  min-height: 100vh;
+  background: #0b498c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: league spartan, sans-serif;
+  font-size: 12px;
+}
+.container{
+    height: 535px;
+    width: 490px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 15px 15px 30px 5px rgba(0,0,0,0.3);
+  }
+
+  
+
+  input[type="button"] {
+    width: 90%;
+    padding: 20px 40px;
+    background-color:black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold 1000px;  
+    border: none;
+    border-radius: 5px;
+    height: 100px;
+    box-shadow: 5px 5px 5px 5px rgba(116, 110, 110, 0.3);
+    display: flex;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+input:hover{
+    filter: brightness(90%);
+    font-size: 25px;
+    
+}
+
+input[type="text"] {
+    padding: 30px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+input.clear{
+    color: orange;
+}
